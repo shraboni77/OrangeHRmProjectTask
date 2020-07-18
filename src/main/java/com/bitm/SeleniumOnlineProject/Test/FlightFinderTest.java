@@ -21,6 +21,6 @@ public class FlightFinderTest {
 	public void flightfinderTest()
 	{
 		driver.findElement(By.xpath(XpathUtils.DashBoardModule.assignLeaveimg)).click();
-		System.out.println("assignleave clicked");
+		
 	}
 }
