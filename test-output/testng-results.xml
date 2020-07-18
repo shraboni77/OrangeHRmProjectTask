@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewToursSiteTestingSuite" duration-ms="13868" started-at="2020-07-18T17:33:36 BDT" finished-at="2020-07-18T17:33:50 BDT">
+    <groups>
+    </groups>
+    <test name="NewTourSiteTest" duration-ms="13868" started-at="2020-07-18T17:33:36 BDT" finished-at="2020-07-18T17:33:50 BDT">
+      <class name="com.bitm.SeleniumOnlineProject.Test.LoginTest">
+        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@3d99d22e]" name="checkLoginPageTitle" duration-ms="8025" started-at="2020-07-18T17:33:36 BDT" finished-at="2020-07-18T17:33:44 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginPageTitle -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@3d99d22e]" name="logintest" duration-ms="3345" started-at="2020-07-18T17:33:44 BDT" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-07-18T17:33:47 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.LoginTest -->
+      <class name="com.bitm.SeleniumOnlineProject.Test.FlightFinderTest">
+        <test-method status="PASS" signature="checkFlightFinderPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.FlightFinderTest@49fc609f]" name="checkFlightFinderPageTitle" duration-ms="1" started-at="2020-07-18T17:33:47 BDT" finished-at="2020-07-18T17:33:47 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightFinderPageTitle -->
+        <test-method status="PASS" signature="flightfinderTest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.FlightFinderTest@49fc609f]" name="flightfinderTest" duration-ms="2433" started-at="2020-07-18T17:33:47 BDT" finished-at="2020-07-18T17:33:50 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightfinderTest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.FlightFinderTest -->
+    </test> <!-- NewTourSiteTest -->
+  </suite> <!-- NewToursSiteTestingSuite -->
+</testng-results>
