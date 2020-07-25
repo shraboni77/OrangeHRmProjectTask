@@ -2,8 +2,6 @@
 	<test name="NewTourSiteTest">
 		<classes>
 			<class name="com.bitm.SeleniumOnlineProject.Test.LoginTest" />
-			<class
-				name="com.bitm.SeleniumOnlineProject.Test.FlightFinderTest" />
 		</classes>
 	</test>
 

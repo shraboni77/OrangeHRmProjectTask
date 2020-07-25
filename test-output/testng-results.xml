@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="NewToursSiteTestingSuite" duration-ms="15823" started-at="2020-07-18T21:28:27 BDT" finished-at="2020-07-18T21:28:42 BDT">
+  <suite name="NewToursSiteTestingSuite" duration-ms="11860" started-at="2020-07-25T20:46:03 BDT" finished-at="2020-07-25T20:46:15 BDT">
     <groups>
     </groups>
-    <test name="NewTourSiteTest" duration-ms="15823" started-at="2020-07-18T21:28:27 BDT" finished-at="2020-07-18T21:28:42 BDT">
+    <test name="NewTourSiteTest" duration-ms="11860" started-at="2020-07-25T20:46:03 BDT" finished-at="2020-07-25T20:46:15 BDT">
       <class name="com.bitm.SeleniumOnlineProject.Test.LoginTest">
-        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@3d99d22e]" name="checkLoginPageTitle" duration-ms="8943" started-at="2020-07-18T21:28:27 BDT" finished-at="2020-07-18T21:28:36 BDT">
+        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@7c29daf3]" name="checkLoginPageTitle" duration-ms="9356" started-at="2020-07-25T20:46:03 BDT" finished-at="2020-07-25T20:46:13 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginPageTitle -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@3d99d22e]" name="logintest" duration-ms="4148" started-at="2020-07-18T21:28:36 BDT" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-07-18T21:28:40 BDT">
+        <test-method status="PASS" signature="logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@7c29daf3]" name="logintest" duration-ms="1362" started-at="2020-07-25T20:46:14 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-07-25T20:46:15 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [username=tutorial, password=tutorial]]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
       </class> <!-- com.bitm.SeleniumOnlineProject.Test.LoginTest -->
-      <class name="com.bitm.SeleniumOnlineProject.Test.FlightFinderTest">
-        <test-method status="PASS" signature="checkFlightFinderPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.FlightFinderTest@49fc609f]" name="checkFlightFinderPageTitle" duration-ms="3" started-at="2020-07-18T21:28:40 BDT" finished-at="2020-07-18T21:28:40 BDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkFlightFinderPageTitle -->
-        <test-method status="PASS" signature="flightfinderTest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.FlightFinderTest@49fc609f]" name="flightfinderTest" duration-ms="2646" started-at="2020-07-18T21:28:40 BDT" finished-at="2020-07-18T21:28:42 BDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightfinderTest -->
-      </class> <!-- com.bitm.SeleniumOnlineProject.Test.FlightFinderTest -->
     </test> <!-- NewTourSiteTest -->
   </suite> <!-- NewToursSiteTestingSuite -->
 </testng-results>
