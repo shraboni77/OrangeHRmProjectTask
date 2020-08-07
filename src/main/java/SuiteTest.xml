@@ -1,9 +1,18 @@
-<suite name="NewToursSiteTestingSuite" verbose="1">
-	<test name="NewTourSiteTest">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OrangeSiteTestingSuite" verbose="1">
+	<test name="OrangeSiteTest">
 		<classes>
 			<class name="com.bitm.SeleniumOnlineProject.Test.LoginTest" />
 		</classes>
 	</test>
+	
+	<test name="OrangeSiteTes2">
+	<classes>
+			<class name="com.bitm.SeleniumOnlineProject.Test.LeaveTest" />
+		</classes>
+	</test>
+	
 
 </suite>
 

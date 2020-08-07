@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="NewToursSiteTestingSuite" duration-ms="11860" started-at="2020-07-25T20:46:03 BDT" finished-at="2020-07-25T20:46:15 BDT">
+  <suite name="OrangeSiteTestingSuite" duration-ms="55340" started-at="2020-08-07T00:13:36 BDT" finished-at="2020-08-07T00:14:32 BDT">
     <groups>
     </groups>
-    <test name="NewTourSiteTest" duration-ms="11860" started-at="2020-07-25T20:46:03 BDT" finished-at="2020-07-25T20:46:15 BDT">
+    <test name="OrangeSiteTest" duration-ms="19757" started-at="2020-08-07T00:13:36 BDT" finished-at="2020-08-07T00:13:56 BDT">
       <class name="com.bitm.SeleniumOnlineProject.Test.LoginTest">
-        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@7c29daf3]" name="checkLoginPageTitle" duration-ms="9356" started-at="2020-07-25T20:46:03 BDT" finished-at="2020-07-25T20:46:13 BDT">
+        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4bbfb90a]" name="checkLoginPageTitle" duration-ms="10651" started-at="2020-08-07T00:13:36 BDT" finished-at="2020-08-07T00:13:47 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginPageTitle -->
-        <test-method status="PASS" signature="logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@7c29daf3]" name="logintest" duration-ms="1362" started-at="2020-07-25T20:46:14 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-07-25T20:46:15 BDT">
+        <test-method status="PASS" signature="logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4bbfb90a]" name="logintest" duration-ms="7930" started-at="2020-08-07T00:13:48 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-08-07T00:13:56 BDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[LoginDTO [username=tutorial, password=tutorial]]]]>
+                <![CDATA[[LoginDTO [username=Admin, password=admin123]]]]>
               </value>
             </param>
           </params>
@@ -23,6 +23,66 @@
           </reporter-output>
         </test-method> <!-- logintest -->
       </class> <!-- com.bitm.SeleniumOnlineProject.Test.LoginTest -->
-    </test> <!-- NewTourSiteTest -->
-  </suite> <!-- NewToursSiteTestingSuite -->
+    </test> <!-- OrangeSiteTest -->
+    <test name="OrangeSiteTes2" duration-ms="35525" started-at="2020-08-07T00:13:56 BDT" finished-at="2020-08-07T00:14:32 BDT">
+      <class name="com.bitm.SeleniumOnlineProject.Test.LeaveTest">
+        <test-method status="PASS" signature="checkLeavePageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="checkLeavePageTitle" duration-ms="3004" started-at="2020-08-07T00:13:56 BDT" finished-at="2020-08-07T00:13:59 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLeavePageTitle -->
+        <test-method status="PASS" signature="leaveTest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="leaveTest" duration-ms="5151" started-at="2020-08-07T00:13:59 BDT" finished-at="2020-08-07T00:14:04 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveTest -->
+        <test-method status="FAIL" signature="leavetest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="leavetest" duration-ms="27234" started-at="2020-08-07T00:14:04 BDT" data-provider="leaveData" finished-at="2020-08-07T00:14:32 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, fromdate=null, frommonth=Aug, fromyear=2020, fromday=23, todate=null, tomonth=Aug, toyear=2020, today=24, comment=It's Nice to test ], LeaveDTO [empname=, leavetype=null, fromdate=null, frommonth=null, fromyear=null, fromday=null, todate=null, tomonth=null, toyear=null, today=null, comment=null], LeaveDTO [empname=, leavetype=null, fromdate=null, frommonth=null, fromyear=null, fromday=null, todate=null, tomonth=null, toyear=null, today=null, comment=null]]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:113)
+at com.bitm.SeleniumOnlineProject.Test.LeaveTest.leavetest(LeaveTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leavetest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.LeaveTest -->
+    </test> <!-- OrangeSiteTes2 -->
+  </suite> <!-- OrangeSiteTestingSuite -->
 </testng-results>

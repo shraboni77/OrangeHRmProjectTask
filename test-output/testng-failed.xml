@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeSiteTestingSuite]">
+  <test thread-count="5" name="OrangeSiteTes2(failed)">
     <classes>
-      <class name="com.bitm.SeleniumOnlineProject.Test.FlightFinderTest">
+      <class name="com.bitm.SeleniumOnlineProject.Test.LeaveTest">
         <methods>
-          <include name="flightfinderTest"/>
+          <include name="leavetest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.bitm.SeleniumOnlineProject.Test.FlightFinderTest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.LeaveTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- OrangeSiteTes2(failed) -->
+</suite> <!-- Failed suite [OrangeSiteTestingSuite] -->

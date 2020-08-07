@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bitm.SeleniumOnlineProject.Test.FlightFinderTest">
+      <class name="com.bitm.SeleniumOnlineProject.Test.LeaveTest">
         <methods>
-          <include name="flightfinderTest"/>
+          <include name="checkLeavePageTitle"/>
+          <include name="leavetest"/>
+          <include name="leaveTest"/>
         </methods>
-      </class> <!-- com.bitm.SeleniumOnlineProject.Test.FlightFinderTest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.LeaveTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

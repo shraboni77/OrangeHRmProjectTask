@@ -14,6 +14,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import com.bitm.SeleniumOnlineProject.DTO.LeaveDTO;
 import com.bitm.SeleniumOnlineProject.DTO.LoginDTO;
 
 public class ExcelUtils {
@@ -71,6 +72,71 @@ public class ExcelUtils {
 	return logindata;
 	}
 	
+	//Leaveest
+		public static List<LeaveDTO> getLeaveData() throws IOException
+		{
+		List<LeaveDTO> leavedata = new ArrayList<LeaveDTO>();
+		DataFormatter formatter = new DataFormatter();
 	
+		Iterator<Row> rowiterator = ExcelUtils.getSheet(1).iterator();
 		
+		while(rowiterator.hasNext())
+		{
+			Row newxtrow = rowiterator.next();
+			Iterator<Cell> celliterator = newxtrow.cellIterator();
+			LeaveDTO leave =new LeaveDTO();
+			byte cellCounter =0;
+			while(celliterator.hasNext())	
+			{ 
+				Cell cell = celliterator.next();
+				
+				switch(cellCounter){
+					
+				case 0:
+				leave.setEmpname(formatter.formatCellValue(cell));
+					
+					cellCounter++;
+					break;
+				case 1:
+					leave.setLeavetype(formatter.formatCellValue(cell));
+				
+					cellCounter++;
+						break;
+				
+				case 2:
+					leave.setFrommonth(formatter.formatCellValue(cell));
+					cellCounter++;
+						break;
+				case 3:
+					leave.setFromyear(formatter.formatCellValue(cell));
+					cellCounter++;
+						break;
+				case 4:
+					leave.setFromday(formatter.formatCellValue(cell));
+					cellCounter++;
+						break;
+				
+				case 5:
+					leave.setTomonth(formatter.formatCellValue(cell));
+					cellCounter++;
+						break;
+				case 6:
+					leave.setToyear(formatter.formatCellValue(cell));
+					cellCounter++;
+						break;
+				case 7:
+					leave.setToday(formatter.formatCellValue(cell));
+					cellCounter++;
+						break;
+				case 8:
+					leave.setComment(formatter.formatCellValue(cell));
+						break;
+			
+		
+				}
+			}
+			leavedata.add(leave);
+		}
+		return leavedata;
+	}
 }

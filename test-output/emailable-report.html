@@ -8,12 +8,23 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">NewToursSiteTestingSuite</th></tr>
-<tr><td><a href="#t0">NewTourSiteTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,860</td><td></td><td></td></tr>
+<tr><th colspan="8">OrangeSiteTestingSuite</th></tr>
+<tr><td><a href="#t0">OrangeSiteTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,757</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">OrangeSiteTes2</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">35,525</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">55,282</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NewToursSiteTestingSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">NewTourSiteTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.bitm.SeleniumOnlineProject.Test.LoginTest</td><td><a href="#m0">checkLoginPageTitle</a></td><td rowspan="1">1595688363778</td><td rowspan="1">9356</td></tr><tr class="passedeven"><td><a href="#m1">logintest</a></td><td rowspan="1">1595688374155</td><td rowspan="1">1362</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OrangeSiteTestingSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">OrangeSiteTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.bitm.SeleniumOnlineProject.Test.LoginTest</td><td><a href="#m0">checkLoginPageTitle</a></td><td rowspan="1">1596737616842</td><td rowspan="1">10651</td></tr><tr class="passedeven"><td><a href="#m1">logintest</a></td><td rowspan="1">1596737628636</td><td rowspan="1">7930</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">OrangeSiteTes2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.bitm.SeleniumOnlineProject.Test.LeaveTest</td><td><a href="#m2">leavetest</a></td><td rowspan="1">1596737644912</td><td rowspan="1">27234</td></tr><tr><th colspan="4">OrangeSiteTes2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.bitm.SeleniumOnlineProject.Test.LeaveTest</td><td><a href="#m3">checkLeavePageTitle</a></td><td rowspan="1">1596737636632</td><td rowspan="1">3004</td></tr><tr class="passedeven"><td><a href="#m4">leaveTest</a></td><td rowspan="1">1596737639640</td><td rowspan="1">5151</td></tr></tbody>
 </table>
-<h2>NewTourSiteTest</h2><h3 id="m0">com.bitm.SeleniumOnlineProject.Test.LoginTest#checkLoginPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.bitm.SeleniumOnlineProject.Test.LoginTest#logintest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[LoginDTO [username=tutorial, password=tutorial]]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OrangeSiteTest</h2><h3 id="m0">com.bitm.SeleniumOnlineProject.Test.LoginTest#checkLoginPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.bitm.SeleniumOnlineProject.Test.LoginTest#logintest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[LoginDTO [username=Admin, password=admin123]]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OrangeSiteTes2</h2><h3 id="m2">com.bitm.SeleniumOnlineProject.Test.LeaveTest#leavetest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, fromdate=null, frommonth=Aug, fromyear=2020, fromday=23, todate=null, tomonth=Aug, toyear=2020, today=24, comment=It&apos;s Nice to test ], LeaveDTO [empname=, leavetype=null, fromdate=null, frommonth=null, fromyear=null, fromday=null, todate=null, tomonth=null, toyear=null, today=null, comment=null], LeaveDTO [empname=, leavetype=null, fromdate=null, frommonth=null, fromyear=null, fromday=null, todate=null, tomonth=null, toyear=null, today=null, comment=null]]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:113)
+	at com.bitm.SeleniumOnlineProject.Test.LeaveTest.leavetest(LeaveTest.java:44)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.bitm.SeleniumOnlineProject.Test.LeaveTest#checkLeavePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.bitm.SeleniumOnlineProject.Test.LeaveTest#leaveTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
