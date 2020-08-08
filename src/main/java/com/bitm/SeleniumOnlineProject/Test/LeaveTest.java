@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 import com.bitm.SeleniumOnlineProject.DTO.LeaveDTO;
 import com.bitm.SeleniumOnlineProject.DataProvider.LeaveDataProvider;
@@ -97,9 +98,11 @@ public class LeaveTest {
 		 Thread.sleep(3000);
 		 driver.findElement(By.xpath(XpathUtils.Confirm.confirmassign)).click();
 		 Thread.sleep(3000);
+		 Reporter.log("assign leave successfull");
+		 System.out.println("leave test successfull");
          driver.close();
 
-		
+	
 		
    }
   }

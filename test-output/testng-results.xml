@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[assign leave successfull]]>
+    </line>
   </reporter-output>
-  <suite name="OrangeSiteTestingSuite" duration-ms="53137" started-at="2020-08-08T19:47:05 BDT" finished-at="2020-08-08T19:47:58 BDT">
+  <suite name="OrangeSiteTestingSuite" duration-ms="52478" started-at="2020-08-08T20:23:59 BDT" finished-at="2020-08-08T20:24:51 BDT">
     <groups>
     </groups>
-    <test name="OrangeSiteTest" duration-ms="15512" started-at="2020-08-08T19:47:05 BDT" finished-at="2020-08-08T19:47:20 BDT">
+    <test name="OrangeSiteTest" duration-ms="14297" started-at="2020-08-08T20:23:59 BDT" finished-at="2020-08-08T20:24:13 BDT">
       <class name="com.bitm.SeleniumOnlineProject.Test.LoginTest">
-        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4bbfb90a]" name="checkLoginPageTitle" duration-ms="7704" started-at="2020-08-08T19:47:05 BDT" finished-at="2020-08-08T19:47:12 BDT">
+        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4bbfb90a]" name="checkLoginPageTitle" duration-ms="7137" started-at="2020-08-08T20:23:59 BDT" finished-at="2020-08-08T20:24:06 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginPageTitle -->
-        <test-method status="PASS" signature="logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4bbfb90a]" name="logintest" duration-ms="7265" started-at="2020-08-08T19:47:13 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-08-08T19:47:20 BDT">
+        <test-method status="PASS" signature="logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4bbfb90a]" name="logintest" duration-ms="6679" started-at="2020-08-08T20:24:07 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-08-08T20:24:13 BDT">
           <params>
             <param index="0">
               <value>
@@ -24,21 +27,21 @@
         </test-method> <!-- logintest -->
       </class> <!-- com.bitm.SeleniumOnlineProject.Test.LoginTest -->
     </test> <!-- OrangeSiteTest -->
-    <test name="OrangeSiteTes2" duration-ms="37607" started-at="2020-08-08T19:47:20 BDT" finished-at="2020-08-08T19:47:58 BDT">
+    <test name="OrangeSiteTes2" duration-ms="38159" started-at="2020-08-08T20:24:13 BDT" finished-at="2020-08-08T20:24:51 BDT">
       <class name="com.bitm.SeleniumOnlineProject.Test.LeaveTest">
-        <test-method status="PASS" signature="AssignTest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="AssignTest" duration-ms="3001" started-at="2020-08-08T19:47:20 BDT" finished-at="2020-08-08T19:47:23 BDT">
+        <test-method status="PASS" signature="AssignTest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="AssignTest" duration-ms="3002" started-at="2020-08-08T20:24:13 BDT" finished-at="2020-08-08T20:24:16 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AssignTest -->
-        <test-method status="PASS" signature="assignTest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="assignTest" duration-ms="4125" started-at="2020-08-08T19:47:23 BDT" finished-at="2020-08-08T19:47:27 BDT">
+        <test-method status="PASS" signature="assignTest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="assignTest" duration-ms="4170" started-at="2020-08-08T20:24:16 BDT" finished-at="2020-08-08T20:24:20 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignTest -->
-        <test-method status="FAIL" signature="leavetest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="leavetest" duration-ms="30422" started-at="2020-08-08T19:47:27 BDT" data-provider="leaveData" finished-at="2020-08-08T19:47:58 BDT">
+        <test-method status="FAIL" signature="leavetest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTest@6acdbdf5]" name="leavetest" duration-ms="30908" started-at="2020-08-08T20:24:20 BDT" data-provider="leaveData" finished-at="2020-08-08T20:24:51 BDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, frommonth=Sep, fromyear=2020, fromday=16, tomonth=Sep, toyear=2020, today=17, comment=It's Nice to test], LeaveDTO [empname=null, leavetype=null, frommonth=null, fromyear=null, fromday=null, tomonth=null, toyear=null, today=null, comment=null], LeaveDTO [empname=, leavetype=null, frommonth=null, fromyear=null, fromday=null, tomonth=null, toyear=null, today=null, comment=null]]]]>
+                <![CDATA[[LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, frommonth=Sep, fromyear=2020, fromday=22, tomonth=Sep, toyear=2020, today=23, comment=It's Nice to test], LeaveDTO [empname=null, leavetype=null, frommonth=null, fromyear=null, fromday=null, tomonth=null, toyear=null, today=null, comment=null], LeaveDTO [empname=, leavetype=null, frommonth=null, fromyear=null, fromday=null, tomonth=null, toyear=null, today=null, comment=null]]]]>
               </value>
             </param>
           </params>
@@ -48,8 +51,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'WPDEV-SUZON', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Shraboni\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e45e4c8c09c3dbea40f033ea2467ec2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Shraboni\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c7149caf3833521c259af4b8a39c36d9
 *** Element info: {Using=xpath, value=//*[@id="assignleave_txtEmployee_empName"]}]]>
             </message>
             <full-stacktrace>
@@ -57,8 +60,8 @@ Session ID: 1e45e4c8c09c3dbea40f033ea2467ec2
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'WPDEV-SUZON', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Shraboni\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e45e4c8c09c3dbea40f033ea2467ec2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Shraboni\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c7149caf3833521c259af4b8a39c36d9
 *** Element info: {Using=xpath, value=//*[@id="assignleave_txtEmployee_empName"]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -74,7 +77,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.bitm.SeleniumOnlineProject.Test.LeaveTest.leavetest(LeaveTest.java:40)
+at com.bitm.SeleniumOnlineProject.Test.LeaveTest.leavetest(LeaveTest.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -107,6 +110,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
+            <line>
+              <![CDATA[assign leave successfull]]>
+            </line>
           </reporter-output>
         </test-method> <!-- leavetest -->
       </class> <!-- com.bitm.SeleniumOnlineProject.Test.LeaveTest -->
