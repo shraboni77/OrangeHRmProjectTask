@@ -32,10 +32,7 @@ public class XpathUtils {
 		
 		public static final String comment = "//*[@id=\"assignleave_txtComment\"]";
 		public static final String assign= "//*[@id=\"assignBtn\"]";
-		
-
-		public static final String justclick="/html/body/div[1]/div[3]/div[1]/div[2]/form/fieldset/ol/li[2]/label";
-		
+			
 	}
 	
 	public static class Confirm{

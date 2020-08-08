@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-OrangeSiteTestingSuite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeSiteTestingSuite" title="com.bitm.SeleniumOnlineProject.Test.LeaveTest" hash-for-method="leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, fromdate=null, frommonth=Aug, fromyear=2020, f...)">leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, fromdate=null, frommonth=Aug, fromyear=2020, f...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeSiteTestingSuite" title="com.bitm.SeleniumOnlineProject.Test.LeaveTest" hash-for-method="leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, frommonth=Sep, fromyear=2020, fromday=16, tomo...)">leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, frommonth=Sep, fromyear=2020, fromday=16, tomo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-OrangeSiteTestingSuite -->
@@ -118,17 +118,17 @@
                     <div class="method-list-content passed suite-OrangeSiteTestingSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeSiteTestingSuite" title="com.bitm.SeleniumOnlineProject.Test.LeaveTest" hash-for-method="checkLeavePageTitle">checkLeavePageTitle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeSiteTestingSuite" title="com.bitm.SeleniumOnlineProject.Test.LeaveTest" hash-for-method="AssignTest">AssignTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeSiteTestingSuite" title="com.bitm.SeleniumOnlineProject.Test.LeaveTest" hash-for-method="assignTest">assignTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-OrangeSiteTestingSuite" title="com.bitm.SeleniumOnlineProject.Test.LoginTest" hash-for-method="checkLoginPageTitle">checkLoginPageTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-OrangeSiteTestingSuite" title="com.bitm.SeleniumOnlineProject.Test.LeaveTest" hash-for-method="leaveTest">leaveTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -156,16 +156,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, fromdate=null, frommonth=Aug, fromyear=2020, f...)">
-                  </a> <!-- leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, fromdate=null, frommonth=Aug, fromyear=2020, f...) -->
+                  <a name="leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, frommonth=Sep, fromyear=2020, fromday=16, tomo...)">
+                  </a> <!-- leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, frommonth=Sep, fromyear=2020, fromday=16, tomo...) -->
                   <span class="method-name">leavetest</span>
-                  <span class="parameters">([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, fromdate=null, frommonth=Aug, fromyear=2020, fromday=23, todate=null, tomonth=Aug, toyear=2020, today=24, comment=It's Nice to test ], LeaveDTO [empname=, leavetype=null, fromdate=null, frommonth=null, fromyear=null, fromday=null, todate=null, tomonth=null, toyear=null, today=null, comment=null], LeaveDTO [empname=, leavetype=null, fromdate=null, frommonth=null, fromyear=null, fromday=null, todate=null, tomonth=null, toyear=null, today=null, comment=null]])</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:113)
-	at com.bitm.SeleniumOnlineProject.Test.LeaveTest.leavetest(LeaveTest.java:44)
+                  <span class="parameters">([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, frommonth=Sep, fromyear=2020, fromday=16, tomonth=Sep, toyear=2020, today=17, comment=It's Nice to test], LeaveDTO [empname=null, leavetype=null, frommonth=null, fromyear=null, fromday=null, tomonth=null, toyear=null, today=null, comment=null], LeaveDTO [empname=, leavetype=null, frommonth=null, fromyear=null, fromday=null, tomonth=null, toyear=null, today=null, comment=null]])</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;WPDEV-SUZON&apos;, ip: &apos;192.168.95.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Shraboni\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e45e4c8c09c3dbea40f033ea2467ec2
+*** Element info: {Using=xpath, value=//*[@id=&quot;assignleave_txtEmployee_empName&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.bitm.SeleniumOnlineProject.Test.LeaveTest.leavetest(LeaveTest.java:40)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -179,16 +193,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkLeavePageTitle">
-                  </a> <!-- checkLeavePageTitle -->
-                  <span class="method-name">checkLeavePageTitle</span>
+                  <a name="AssignTest">
+                  </a> <!-- AssignTest -->
+                  <span class="method-name">AssignTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="leaveTest">
-                  </a> <!-- leaveTest -->
-                  <span class="method-name">leaveTest</span>
+                  <a name="assignTest">
+                  </a> <!-- assignTest -->
+                  <span class="method-name">assignTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -280,28 +294,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'leavetest')
 data.setCell(0, 2, 'com.bitm.SeleniumOnlineProject.Test.LeaveTest')
-data.setCell(0, 3, 27234);
+data.setCell(0, 3, 30422);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkLoginPageTitle')
 data.setCell(1, 2, 'com.bitm.SeleniumOnlineProject.Test.LoginTest')
-data.setCell(1, 3, 10651);
+data.setCell(1, 3, 7704);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'logintest')
 data.setCell(2, 2, 'com.bitm.SeleniumOnlineProject.Test.LoginTest')
-data.setCell(2, 3, 7930);
+data.setCell(2, 3, 7265);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'leaveTest')
+data.setCell(3, 1, 'assignTest')
 data.setCell(3, 2, 'com.bitm.SeleniumOnlineProject.Test.LeaveTest')
-data.setCell(3, 3, 5151);
+data.setCell(3, 3, 4125);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkLeavePageTitle')
+data.setCell(4, 1, 'AssignTest')
 data.setCell(4, 2, 'com.bitm.SeleniumOnlineProject.Test.LeaveTest')
-data.setCell(4, 3, 3004);
+data.setCell(4, 3, 3001);
 window.suiteTableData['OrangeSiteTestingSuite']= { tableData: data, tableDiv: 'times-div-OrangeSiteTestingSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
               <div id="times-div-OrangeSiteTestingSuite">
               </div> <!-- times-div-OrangeSiteTestingSuite -->
             </div> <!-- times-div -->
@@ -334,24 +348,24 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logintest([LoginDTO [username=Admin, password=admin123]])</span>
-                <span class="method-start">11794 ms</span>
+                <span class="method-start">8216 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.LeaveTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">checkLeavePageTitle</span>
-                <span class="method-start">19790 ms</span>
+                <span class="method-name">AssignTest</span>
+                <span class="method-start">15503 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">leaveTest</span>
-                <span class="method-start">22798 ms</span>
+                <span class="method-name">assignTest</span>
+                <span class="method-start">18505 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, fromdate=null, frommonth=Aug, fromyear=2020, f...)</span>
-                <span class="method-start">28070 ms</span>
+                <span class="method-name">leavetest([LeaveDTO [empname=Linda Anderson, leavetype=FMLA US, frommonth=Sep, fromyear=2020, fromday=16, tomo...)</span>
+                <span class="method-start">22684 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

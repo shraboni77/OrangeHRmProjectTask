@@ -1,15 +1,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="OrangeSiteTestingSuite" verbose="1">
+<suite name="OrangeSiteTestingSuite">
 	<test name="OrangeSiteTest">
 		<classes>
-			<class name="com.bitm.SeleniumOnlineProject.Test.LoginTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.LoginTest"/>
 		</classes>
 	</test>
 	
 	<test name="OrangeSiteTes2">
 	<classes>
-			<class name="com.bitm.SeleniumOnlineProject.Test.LeaveTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.LeaveTest"/>
 		</classes>
 	</test>
 	
